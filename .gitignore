@@ -1,0 +1,12 @@
+# build output
+lsm_db
+*.o
+*.dSYM/
+
+# database files -- generated at runtime, should never be committed
+data/
+*.sst
+*.log
+
+# macOS
+.DS_Store
